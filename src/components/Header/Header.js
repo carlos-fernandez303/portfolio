@@ -1,39 +1,31 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import { Icon } from "@iconify/react";
 import Typical from "react-typical";
-import Button from "@mui/material/Button";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
-import "./Header.css";
 
-const theme = createTheme({
-  typography: {
-    allVariants: {
-      fontFamily: "Franklin Gothic Medium",
-    },
-  },
-  palette: {
-    primary: {
-      main: "#000",
-    },
-  },
-});
+import "./Header.css";
 
 export default function Header() {
   return (
-    <Container>
+    <Container fluid>
       <Row>
         <Col className="header-container">
           <Icon className="header-laptop-icon" icon="la:laptop-code" />
           <Typical className="header-name" steps={["Carlos Fernandez"]} />
           <Typical className="header-job" steps={["Web Developer"]} />
           <div className="header-links-container">
-            <Icon className="github-icon" icon="akar-icons:github-fill" />
-            <Icon className="linkedin-icon" icon="akar-icons:linkedin-fill" />
-            <ThemeProvider theme={theme}>
-              <Button className="resume-btn" variant="contained">
-                Resume
-              </Button>
-            </ThemeProvider>
+            <a href="https://github.com/carlos-fernandez303?tab=repositories">
+              <Icon className="github-icon" icon="akar-icons:github-fill" />
+            </a>
+            <Button
+              className="resume-btn"
+              variant="dark"
+              href="https://drive.google.com/file/d/1xKmxIyn93-gr-Kb5JvmOLkPVeF28HZFX/view?usp=sharing"
+            >
+              Resume
+            </Button>
+            <a href="https://www.linkedin.com/in/carlosfernandez123/">
+              <Icon className="linkedin-icon" icon="akar-icons:linkedin-fill" />
+            </a>
           </div>
         </Col>
       </Row>

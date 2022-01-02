@@ -5,7 +5,7 @@
   justify-content: center;
   height: 100vh;
 
-  background-color: e9d5a1;
+  background-color: #e9d5a1;
 }
 
 .header-links-container {
@@ -17,19 +17,24 @@
   justify-content: space-around;
 }
 
-.linkedin-icon {
-  height: 3rem;
-  width: auto;
+.header-links-container a {
+  color: black;
 }
 
-.github-icon {
-  height: 3rem;
-  width: auto;
+.github-icon,
+.linkedin-icon,
+.resume-btn {
+  font-size: 3rem;
 }
 
 .resume-btn {
-  height: 3rem;
-  width: auto;
+  color: white !important;
+  padding-top: 0.65rem !important;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.resume-btn:hover {
+  background-color: rgb(0, 85, 188) !important;
 }
 
 .header-laptop-icon {
@@ -73,6 +78,20 @@
     font-size: 1.5rem;
     margin-top: 10rem;
   }
+
+  .header-links-container {
+    margin-bottom: 10rem;
+  }
+
+  .github-icon,
+  .linkedin-icon,
+  .resume-btn {
+    font-size: 2.5rem;
+  }
+
+  .resume-btn {
+    padding-top: 0.4rem !important;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -89,5 +108,20 @@
   .header-job {
     font-size: 1.25rem;
     margin-top: 6rem;
+  }
+
+  .header-links-container {
+    margin-bottom: 15rem;
+    width: 18rem;
+  }
+
+  .github-icon,
+  .linkedin-icon,
+  .resume-btn {
+    font-size: 2.5rem;
+  }
+
+  .resume-btn {
+    padding-top: 0.4rem !important;
   }
 }
