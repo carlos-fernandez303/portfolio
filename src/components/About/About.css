@@ -1,0 +1,25 @@
+.about-me-container {
+  height: 75vh;
+}
+
+.about-me-title {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 1000;
+  padding-top: 3rem;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  width: 12rem;
+  height: 15rem;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 30%);
+}
+
+.about-me-photo img {
+  width: auto;
+  height: 10rem;
+  margin: auto;
+}

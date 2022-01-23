@@ -13,17 +13,26 @@ export default function Header() {
           <Typical className="header-name" steps={["Carlos Fernandez"]} />
           <Typical className="header-job" steps={["Web Developer"]} />
           <div className="header-links-container">
-            <a href="https://github.com/carlos-fernandez303?tab=repositories">
+            <a
+              href="https://github.com/carlos-fernandez303?tab=repositories"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Icon className="github-icon" icon="akar-icons:github-fill" />
             </a>
             <Button
               className="resume-btn"
               variant="dark"
               href="https://drive.google.com/file/d/1xKmxIyn93-gr-Kb5JvmOLkPVeF28HZFX/view?usp=sharing"
+              target="_blank"
             >
               Resume
             </Button>
-            <a href="https://www.linkedin.com/in/carlosfernandez123/">
+            <a
+              href="https://www.linkedin.com/in/carlosfernandez123/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Icon className="linkedin-icon" icon="akar-icons:linkedin-fill" />
             </a>
           </div>

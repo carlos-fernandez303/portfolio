@@ -9,7 +9,7 @@
 }
 
 .header-links-container {
-  position: fixed;
+  position: absolute;
   margin-top: 30rem;
 
   width: 20rem;
@@ -44,14 +44,14 @@
 }
 
 .header-name {
-  position: fixed;
+  position: absolute;
   margin-top: 10rem;
   font-size: 3rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .header-job {
-  position: fixed;
+  position: absolute;
   margin-top: 16rem;
   font-size: 2rem;
   font-family: "Raleway", sans-serif;
