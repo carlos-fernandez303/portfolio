@@ -16,10 +16,29 @@
   width: 12rem;
   height: 15rem;
   box-shadow: 0 4px 6px rgb(0 0 0 / 30%);
+  margin-top: 5rem;
+  margin-left: 8rem;
 }
 
 .about-me-photo img {
   width: auto;
   height: 10rem;
   margin: auto;
+}
+
+.job-logos-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 1rem;
+}
+
+.job-logos {
+  width: auto;
+  height: 2rem;
+}
+
+.about-me-description {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  margin-top: 5rem;
+  height: 15rem;
 }
