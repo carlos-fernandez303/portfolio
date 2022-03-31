@@ -11,7 +11,11 @@ export default function Header() {
         <Col className="header-container">
           <Icon className="header-laptop-icon" icon="la:laptop-code" />
           <Typical className="header-name" steps={["Carlos Fernandez"]} />
-          <Typical className="header-job" steps={["Web Developer"]} />
+          <Typical
+            className="header-job"
+            steps={["GIS Analyst", 1200, "Web Developer", 1200]}
+            loop={Infinity}
+          />
           <div className="header-links-container">
             <a
               href="https://github.com/carlos-fernandez303?tab=repositories"

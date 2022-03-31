@@ -1,14 +1,14 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "./About.css";
 import { Icon } from "@iconify/react";
-
+import CardHeader from "./CardHeader";
 export default function About() {
   return (
     <Container className="about-me-container">
       <Row>
         <Col className="about-me-title">About Me</Col>
       </Row>
-      <Row>
+      <Row className="about-me-row">
         <Col className="about-me-photo">
           <div className="img-container">
             <img src="about-me-photo.jpg" alt="Carlos Fernandez" />
@@ -22,10 +22,13 @@ export default function About() {
 
         <Col>
           <div className="about-me-description">
-            <h1>Hello!</h1>
+            <CardHeader />
+            <h1>Hello! </h1>
             <p>
-              My name is Carlos Fernandez and I will make this description a lot
-              better trust
+              My name is Carlos. I am interested conducting spatial analyses
+              with GIS concepts such as Spatial Autocorrelation and Quadtree
+              data structures. I also enjoy developing interactive web
+              applications with React.
             </p>
           </div>
         </Col>

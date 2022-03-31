@@ -1,28 +1,45 @@
 .about-me-container {
-  height: 75vh;
+  height: 60vh;
+}
+
+.about-me-photo {
+  margin-top: 70px !important;
+}
+
+.about-me-description {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  margin-top: 130px;
+  width: 800px;
 }
 
 .about-me-title {
   text-align: center;
-  font-family: "Raleway", sans-serif;
-  font-size: 1.75rem;
-  font-weight: 1000;
+  font: 18px/24px "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+
   padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .img-container {
   display: flex;
   flex-direction: column;
-  width: 12rem;
-  height: 15rem;
+  width: 17rem;
+  height: 20rem;
   box-shadow: 0 4px 6px rgb(0 0 0 / 30%);
-  margin-top: 5rem;
-  margin-left: 8rem;
 }
 
 .about-me-photo img {
   width: auto;
-  height: 10rem;
+  height: 15rem;
   margin: auto;
 }
 
@@ -37,8 +54,64 @@
   height: 2rem;
 }
 
-.about-me-description {
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  margin-top: 5rem;
-  height: 15rem;
+.about-me-description h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 1rem 0 0 1rem;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.about-me-description p {
+  line-height: 1.75;
+  margin: 1rem 1rem 1rem 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+@media only screen and (max-width: 1200px) {
+  .about-me-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-container,
+  .about-me-description {
+    margin: auto;
+  }
+
+  .about-me-description {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .about-me-description {
+    width: 40rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about-me-description {
+    width: 35rem;
+  }
+
+  @media only screen and (max-width: 690px) {
+    .about-me-description {
+      width: 25rem;
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    .img-container {
+      width: 15rem;
+    }
+
+    .img-container img {
+      height: 13rem;
+    }
+    .about-me-description {
+      width: 15rem;
+    }
+  }
 }
