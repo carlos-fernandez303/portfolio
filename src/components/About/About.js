@@ -1,4 +1,4 @@
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import "./About.css";
 import { Icon } from "@iconify/react";
 import CardHeader from "./CardHeader";
