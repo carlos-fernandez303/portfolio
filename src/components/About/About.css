@@ -1,15 +1,23 @@
+
+
 .about-me-container {
-  height: 60vh;
+  min-height: 60vh;
+  padding-bottom: 3rem;
+  background-color: #FDF4DC;
 }
 
 .about-me-photo {
   margin-top: 70px !important;
+  
+  
 }
 
 .about-me-description {
   border: 1px solid rgba(0, 0, 0, 0.125);
   margin-top: 130px;
   width: 800px;
+  margin-right: 1rem;
+  
 }
 
 .about-me-title {
@@ -35,12 +43,14 @@
   width: 17rem;
   height: 20rem;
   box-shadow: 0 4px 6px rgb(0 0 0 / 30%);
+  margin: auto;
 }
 
 .about-me-photo img {
   width: auto;
   height: 15rem;
   margin: auto;
+  
 }
 
 .job-logos-container {
@@ -70,6 +80,10 @@
 }
 
 @media only screen and (max-width: 1200px) {
+  .about-me-container {
+    padding-bottom: 3rem;
+    margin-right: 0;
+  }
   .about-me-row {
     display: flex;
     flex-direction: column;

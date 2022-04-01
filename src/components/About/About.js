@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 import CardHeader from "./CardHeader";
 export default function About() {
   return (
-    <Container className="about-me-container">
+    <Container fluid className="about-me-container">
       <Row>
         <Col className="about-me-title">About Me</Col>
       </Row>

@@ -5,7 +5,8 @@
   justify-content: center;
   height: 100vh;
   min-height: 70vh;
-  background-color: #e9d5a1;
+  background-color: #1f1f1f;
+  /* background-color: #e9d5a1; */
 }
 
 .header-links-container {
@@ -18,7 +19,7 @@
 }
 
 .header-links-container a {
-  color: black;
+  color: #FDF4DC;
 }
 
 .github-icon,
@@ -28,7 +29,8 @@
 }
 
 .resume-btn {
-  color: white !important;
+  background-color: #FDF4DC !important;
+  color: #1f1f1f !important;
   padding-top: 0.65rem !important;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -38,12 +40,14 @@
 }
 
 .header-laptop-icon {
+  color: #FDF4DC;
   margin-bottom: 10rem;
   height: 15rem;
   width: auto;
 }
 
 .header-name {
+  color: #FDF4DC;
   position: absolute;
   margin-top: 10rem;
   font-size: 3rem;
@@ -51,6 +55,7 @@
 }
 
 .header-job {
+  color: #FDF4DC;
   position: absolute;
   margin-top: 16rem;
   font-size: 2rem;
