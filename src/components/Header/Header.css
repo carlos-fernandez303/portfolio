@@ -86,6 +86,7 @@
 
   .header-links-container {
     margin-bottom: 10rem;
+   
   }
 
   .github-icon,
@@ -117,7 +118,7 @@
 
   .header-links-container {
     margin-bottom: 15rem;
-    width: 18rem;
+    width: 100vw;
   }
 
   .github-icon,
