@@ -68,7 +68,7 @@ export default function Projects() {
             <Button
               className="demo-btn"
               variant="dark"
-              href="https://drive.google.com/file/d/1xKmxIyn93-gr-Kb5JvmOLkPVeF28HZFX/view?usp=sharing"
+              href="pg-car-accidents.netlify.app"
               target="_blank"
             >
               Visit
