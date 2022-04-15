@@ -68,7 +68,7 @@ export default function Projects() {
             <Button
               className="demo-btn"
               variant="dark"
-              href="pg-car-accidents.netlify.app"
+              href="https://pg-car-accidents.netlify.app"
               target="_blank"
             >
               Visit
