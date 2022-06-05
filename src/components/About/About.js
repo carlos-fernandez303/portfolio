@@ -25,10 +25,10 @@ export default function About() {
             <CardHeader />
             <h1>Hello! </h1>
             <p>
-              My name is Carlos. I am interested conducting spatial analyses
-              with GIS concepts such as Spatial Autocorrelation and Quadtree
-              data structures. I also enjoy developing interactive web
-              applications with React.
+              My name is Carlos. I am interested in software engineering using
+              modern languages such as Javascript and Python. While I am
+              comfortable with front-end libraries such as React, I strive to
+              learn more about the backend of web development.
             </p>
           </div>
         </Col>
