@@ -13,7 +13,7 @@ export default function Header() {
           <Typical className="header-name" steps={["Carlos Fernandez"]} />
           <Typical
             className="header-job"
-            steps={["GIS Analyst", 1200, "Web Developer", 1200]}
+            steps={["Software Engineer", 1200, "Web Developer", 1200]}
             loop={Infinity}
           />
           <div className="header-links-container">
